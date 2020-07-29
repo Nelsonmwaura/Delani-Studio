@@ -13,4 +13,16 @@
     color: white;
     text-emphasis:bold;
 }
+.about{
+    background: whitesmoke;
+    padding-top: 0%;
+   
+}
+.about-text{
+    color: black;
+    text-align: center;
+    background: transparent;
+    font-size-adjust: auto;  
+    
+}
 
