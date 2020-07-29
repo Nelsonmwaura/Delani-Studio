@@ -1,0 +1,14 @@
+.intro{
+    background: url(../Delani-studio/backgrounds/h_img.jpg) no-repeat;
+    align-items: center;
+}
+.first-text{
+	background: transparent;
+	font-weight: bold;
+    text-align: center;
+    font-size-adjust: auto;
+    font-size: 60px;
+    color: white;
+    text-emphasis:bold;
+}
+
