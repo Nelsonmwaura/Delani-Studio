@@ -1,7 +1,7 @@
 # Delani Studio
 
 ## Authors
-- [iantheninja](https://github.com/Nelsonmwaura/Delani-Studio)
+- [Nelsonmwaura](https://github.com/Nelsonmwaura/Delani-Studio)
 
 ## Project setup instructions
 To start using this project use the following commands:
