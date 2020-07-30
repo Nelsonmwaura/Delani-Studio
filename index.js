@@ -1,7 +1,3 @@
-$('#work').on("click",function(e){
-    $('.span').hover('slow');
-    $('.work1').hover("click");
-   });
 $(document).ready(function () {
     $("#blanks form").submit(function (event) {
         var nameInput = $("input#name").val();
@@ -15,4 +11,8 @@ $(document).ready(function () {
 
         event.preventDefault();
     });
+});
+$('#description').on("click", function (e) {
+    $('.span').hover('slow');
+    $('.description').hover("click");
 });
