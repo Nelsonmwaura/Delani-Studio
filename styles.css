@@ -33,3 +33,9 @@
     background: transparent;
     color: white;
 }
+.description{
+    background:whitesmoke;
+    height:inherit;
+    width: 50;
+    
+}
