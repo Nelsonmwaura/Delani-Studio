@@ -48,3 +48,12 @@ h1{
     margin-top: 10px;
     border-image: space;
 }
+
+.query{
+    border-right:20% ;
+}
+.query-text{
+    
+    text-align: center;
+    
+}
