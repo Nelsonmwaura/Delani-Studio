@@ -61,6 +61,7 @@ h1{
 }
 #recieved{
     display: none;
+    
   }
 .query-text{
     font-size:larger;
@@ -74,15 +75,9 @@ h1{
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-.row1 {
-    display: flex;
-    padding-left: 13%;
-  }
-  .column1 {
+.overlay{
+    height:10%;
+   font-size: 54%;
     float: left;
-    width: 22%;
-    padding: 2px;
-  }
-  .form-control::-webkit-input-placeholder { 
-    color: rgb(235, 219, 219); 
-  }
+    
+}
