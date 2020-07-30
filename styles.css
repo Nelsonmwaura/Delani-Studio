@@ -39,3 +39,9 @@
     width: 50;
     
 }
+.descrition-text{
+    color: white;
+    font-weight: 200;
+    margin-top: 10px;
+    border-image: space;
+}
