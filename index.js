@@ -12,7 +12,3 @@ $(document).ready(function () {
         event.preventDefault();
     });
 });
-$('#description').on("click", function (e) {
-    $('.span').hover('slow');
-    $('.description').hover("click");
-});

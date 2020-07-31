@@ -40,10 +40,6 @@ h1{
     background:whitesmoke;
    
 }
-.description-text{
-    color: white;
-    
-}
 .query{
     background-image: url(../Delani-studio/backgrounds/c_image.jpg);
     background-position:initial;
@@ -75,9 +71,40 @@ h1{
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-.overlay{
-    height:10%;
-   font-size: 54%;
-    float: left;
+.textOverImage{
+    ba
+        position: relative;
+        width: 400px;
+        height:300px;
+       text-align: center;
+       margin: 4px;
+        float:left; 
+        background-size: 20%; 
+        transition: 0.5s;
+    }
+    .textOverImage:hover{
+      background-size: 30%;
+    }
+    .textOverImage::after{
+        content: attr(text);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+       content: attr(text);
+          word-wrap: wrap break-word;
+          overflow: hidden;
+          padding: 8px;
+          opacity: 0;
+    }
+    .textOverImage:hover::after{
+        opacity: 1;
+        top: 0;
+        padding: 8px;
     
-}
+    }
+    .textOverImage::first-line{
+        font-weight: bold;
+    
+    }
