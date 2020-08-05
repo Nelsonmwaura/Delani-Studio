@@ -25,6 +25,7 @@ body {
     position: relative;
     top: 33%;
 }
+
 .overlay > img, .welcome {
     margin-bottom: 30px;
 }
@@ -39,7 +40,7 @@ body {
     height: 668px;
 }
 #bounce {
-    animation: bounce 3s infinite;
+    animation: bounce 3s;
 }
 
 @keyframes bounce {
@@ -63,7 +64,7 @@ body {
 }
 
 .services {
-   background-image: url("../Delani-Studio/backgrounds/h_img.jpg");
+    background-image: url("../Delani-Studio/backgrounds/s_image.jpg");
     height: 280px;
 }
 
@@ -79,7 +80,7 @@ body {
 }
 
 .contacts {
-     background-image: url("../Delani-Studio/backgrounds/c_image.jpg");
+    background-image: url("../Delani-Studio/backgrounds/c_image.jpg");
     background-size: cover;
 }
 
@@ -115,12 +116,7 @@ figcaption{
 .input{
     margin-top: 30px;
 }
-.b-text{
-    font-family: 'Comfortaa', cursive;
-}
-.m-text{
-    font-family: 'Raleway', sans-serif;
-}
+
 .name{
     margin-right: 5px;
 }
@@ -160,6 +156,7 @@ input.error {
     width: auto;
     position: absolute;
     bottom: 0;
+    color: deepskyblue;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
