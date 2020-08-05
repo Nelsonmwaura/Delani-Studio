@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <script src="/home/mwaura/Documents/WEEK3/Delani-studio/index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0c3a8991fb082b831f0556fce/3af0a402a75f4953479c1801c.js");</script>
 </head>
-
 <body>
     <div class="container-fluid">
         <div class="jumbotron-fluid">
-            <div class="intro">
-                <img src="logo/logo.png" alt="logo" class="mx-auto d-block">
-                <h1>WELCOME</h1>
-                <h1>TO DELANI STUDIO</h1>
-                <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
-                <img src="backgrounds/mouse_click.png">
+            <div class="overlay">
+                <img src="images/logo/logo.png" alt="logo" class="mx-auto d-block">
+                <h1 class="text-white text-center welcome h-text">Welcome</h1>
+                <h1 class="text-white text-center delani h-text">TO DELANI STUDIO</h1>
+                <h6 class="text-white text-center text h-text smaller-text">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN
+                    ENVIRONMENT</h6>
+                <a href="#about"><img src="images/mouse_click.png" class="mx-auto d-block click" alt="mouse click" id="bounce"></a>
             </div>
-        </div>
+        </div> 
         <div class="about" id="about">
-            <h1 class="text-center b-text">ABOUT US</h1><br>
-            <p class="text-center m-text">When you work with us, you are a part of a team of committed collaborators.
-                All
+            <h1 class="text-center b-text" >ABOUT US</h1><br>
+            <p class="text-center m-text">When you work with us, you are a part of a team of committed collaborators. All
                 aspects of our software development process are integrated, interactive and agile
             </p>
-            <p class="text-center m-text">Our approach unifies design, development and product management to create
-                exceptional
+            <p class="text-center m-text">Our approach unifies design, development and product management to create exceptional
                 products.</p>
             <p class="text-center m-text">We start each project by understanding your business goals, the user's needs
                 and the product requirements.<br> Then we help them translate into effective
@@ -39,8 +35,7 @@
         <div class="services">
             <div class="small-overlay">
                 <h1 class="text-center text-white s-text b-text">SERVICES</h1><br><br>
-                <p class="text-center text-white m-text">Before we sign or write a line of code our team will spend the
-                    necessary time needed to understand your product vision.<br>The outcome of this scoping
+                <p class="text-center text-white m-text">Before we sign or write a line of code our team will spend the necessary time needed to understand your product vision.<br>The outcome of this scoping
                     session is a
                     proposal or high level statement of work.<br>Based on your requirements, we can provide a
                     complete offering or just the pieces you need.</p>
@@ -51,39 +46,35 @@
             <div class="col-md-12">
                 <div class="row">
                     <figure class="col-md-4">
-                        <img src="services_icons/design_icon.png" alt="services-icons" class="service-icons des">
+                        <img src="images/services_icons/design_icon.png" alt="services-icons" class="service-icons des">
                         <figcaption id="destxt" class="b-text">DESIGN</figcaption>
                         <br>
-                        <p id="desp" class="b-text">We offers a full range of services including brand strategy in
-                            design,
-                            interaction
+                        <p id="desp" class="b-text">We offers a full range of services including brand strategy in design,
+                            interaction 
                             which are tested and working without any bugs.
-                            Throughout your project you will be offered full technical assistance to make sure you
-                            attain your goals.</p>
+                            Throughout your project you will be offered full technical assistance to make sure you attain your goals.</p>
                     </figure>
                     <figure class="col-md-4">
-                        <img src="services_icons/dev_icon.png" alt="services-icons" class="service-icons dev">
+                        <img src="images/services_icons/dev_icon.png" alt="services-icons" class="service-icons dev">
                         <figcaption id="devtext" class="b-text">DEVELOPMENT</figcaption>
                         <br>
-                        <p id="devp" class="b-text">All our technical officers are fluent in the latest enterprise,
-                            mobile and web development
+                        <p id="devp" class="b-text">All our technical officers are fluent in the latest enterprise, mobile and web development
                             technologies.
                             They will combine with your team to write, and improve code on a daily basis, using approved
                             practices such as pair programming and test-based operations.</p>
                     </figure>
                     <figure class="col-md-4">
-                        <img src="services_icons/product_icon.png" alt="services-icons" class="service-icons pro">
+                        <img src="images/services_icons/product_icon.png" alt="services-icons" class="service-icons pro">
                         <figcaption id="protext" class="b-text">PRODUCT DESIGN</figcaption>
                         <br>
-                        <p id="prop" class="b-text">Planning and development is made easy and interactive. Because we
-                            are constantly coding and testing,
+                        <p id="prop" class="b-text">Planning and development is made easy and interactive. Because we are constantly coding and testing,
                             the products
-
+                            
                             Making sure there is room to allow for changes as business requirements evolve.</p>
                     </figure>
                 </div>
             </div>
-        </div>
+        </div>   
         <div class="portfolio container-fluid">
             <br><br><br>
             <h1 class="text-center b-text">PORTFOLIO</h1><br>
@@ -91,29 +82,35 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-2">
-                        <div class="backgroundimg">
-                            <img src="backgrounds/work1.jpg" alt="portfolio-images" class="image img-fluid">
+                        <div class="portimg">
+                            <img src="images/portfolio/work4.jpg" alt="portfolio-images" class="image img-fluid">
                             <div>
                                 <div class="porttext" style="display:none"> Delani Studio</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="backgroundimg">
-                            <img src="backgrounds/work2.jpg" alt="portfolio-images" class="image img-fluid">
-
+                        <div class="portimg">
+                            <img src="images/portfolio/work3.jpg" alt="portfolio-images" class="image img-fluid">
+                            <div>
+                                <div class="porttext" style="display:none">Delani Studio</div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="backgroundimg">
-                            <img src="backgrounds/work3.jpg" alt="portfolio-images" class="image img-fluid">
-
+                        <div class="portimg">
+                            <img src="images/portfolio/work2.jpg" alt="portfolio-images" class="image img-fluid">
+                            <div>
+                                <div class="porttext" style="display:none">Delani Studio</div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="backgroundimg">
-                            <img src="backgrounds/work4.jpg" alt="portfolio-images" class="image img-fluid">
-
+                        <div class="portimg">
+                            <img src="images/portfolio/work1.jpg" alt="portfolio-images" class="image img-fluid">
+                            <div class="disc1">
+                                <div class="porttext" style="display:none">Delani Studio</div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-2"></div>
@@ -122,82 +119,121 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-2">
-                        <div class="backgroundimg">
-                            <img src="backgrounds/work5.jpg" alt="portfolio-images" class="image img-fluid">
-
+                        <div class="portimg">
+                            <img src="images/portfolio/work5.jpg" alt="portfolio-images" class="image img-fluid">
+                            <div class="porttext" style="display:none">Delani Studio</div>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="portimg">
-                            <img src="backgrounds/work6.jpg" alt="portfolio-images" class="image img-fluid">
-
+                            <img src="images/portfolio/work6.jpg" alt="portfolio-images" class="image img-fluid">
+                            <div class="porttext" style="display:none">Delani Studio</div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="backgroundimg">
-                            <img src="backgrounds/work7.jpg" alt="portfolio-images" class="image img-fluid">
-
+                        <div class="portimg">
+                            <img src="images/portfolio/work7.jpg" alt="portfolio-images" class="image img-fluid">
+                            <div class="porttext" style="display:none">Delani Studio</div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="backgroundimg">
-                            <img src="backgrounds/work8.jpg" alt="portfolio-images" class="image img-fluid">
+                        <div class="portimg">
+                            <img src="images/portfolio/work8.jpg" alt="portfolio-images" class="image img-fluid">
+                            <div class="porttext" style="display:none">Delani Studio</div>
                         </div>
                     </div>
                     <div class="col-md-2"></div>
-                </div>
             </div>
         </div>
-        <div class="contacts">
-            <div class="contact">
-                <h1 class="text-center text-white b-text">CONTACT US
-                </h1><br>
-                <div class="col-md-12 input">
-                    <form id="form">
-                        <div class="row">
-                            <div class="col-md-2 form"></div>
-                            <input class="col-md-4 form-control name" type="text" id="name" name="name"
-                                placeholder="Name" required><br><br>
-                            <input class="col-md-4 form-control email" type="email" id="email" name="email"
-                                placeholder="Email" required>
-                            <div class="col-md-2">
-                            </div>
-                        </div>
-                        <div class="row input">
-                            <div class="col-md-2"></div>
-                            <textarea class="form-control col-md-8 text" rows="12" name="message" id="message"
-                                placeholder="Your message here"></textarea>
-                            <div class="col-md-2"></div>
-                        </div>
-                        <button class="btn btn-success mx-auto d-block submit" id="okButton"
-                            type="submit">Submit</button>
-                        <br>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-
-        <br><br>
-        <div class="social mx-auto text-center">
-            <div class="col-md-2"></div>
-            <img src="social_icons/behance.png">
-            <img src="social_icons/dribble.png">
-            <img src="social_icons/facebook.png">
-            <img src="social_icons/g_plus.png">
-            <img src="social_icons/skype.png">
-            <img src="social_icons/stumble_upon.png">
-            <img src="social_icons/behance.png">
-            <img src="social_icons/pinterest.png">
-            <img src="social_icons/flickr.png">
-        </div>
-        <br>
-        <footer class="text-center">Delani Studio <br> 2020</footer>
     </div>
+    <div class="contacts">
+        <div class="contact-overlay">
+            <h1 class="text-center text-white b-text">CONTACT US
+            </h1><br>
+            <div class="col-md-12 input">
+                <form id="form">
+                    <div class="row">
+                        <div class="col-md-2 form"></div>
+                        <input class="col-md-4 form-control name" type="text" id="name" name="name" placeholder="Name..."
+                               required><br><br>
+                        <input class="col-md-4 form-control email" type="email" id="email" name="email" placeholder="Email..."
+                               required>
+                        <div class="col-md-2">
+                        </div>
+                    </div>
+                    <div class="row input">
+                        <div class="col-md-2"></div>
+                        <textarea class="form-control col-md-8 text" rows="12" name="message" id="message"
+                                  placeholder="Your message here..."></textarea>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+                    <br>
+                </form>
+                <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://github.us17.list-manage.com/subscribe/post?u=49c00214c61420672a8056f52&amp;id=1004f20151" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-BIRTHDAY-month">Birthday </label>
+	<div class="datefield">
+		<span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
+		<span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
+		<span class="small-meta nowrap">( mm / dd )</span>
+	</div>
+</div>	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_49c00214c61420672a8056f52_1004f20151" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+            </div>
+           
+        </div>
+    </div>
+    <br><br>
+    <div class="social mx-auto text-center">
+        <div class="col-md-2"></div>
+        <img src="images/social_icons/twitter.png">
+        <img src="images/social_icons/dribble.png">
+        <img src="images/social_icons/facebook.png">
+        <img src="images/social_icons/g_plus.png">
+        <img src="images/social_icons/skype.png">
+        <img src="images/social_icons/stumble_upon.png">
+        <img src="images/social_icons/behance.png">
+        <img src="images/social_icons/pinterest.png">
+        <img src="images/social_icons/flickr.png">
+    </div>
+    <br>
+    <footer class="text-center">Delani Studio <br> 2020</footer>
+</div>
 </body>
-<scr<script src="https://code.jquery.com/jquery-3.5.1.js"
-    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
-    </script>
-
-
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+<script src="javascript/script.js"></script>
 </html>
