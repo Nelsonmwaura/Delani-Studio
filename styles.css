@@ -25,12 +25,6 @@ body {
     position: relative;
     top: 33%;
 }
-.h-text{
-    font-family: 'Comfortaa', cursive;
-}
-.smaller-text{
-    font-family: 'Ubuntu Mono', monospace;
-}
 .overlay > img, .welcome {
     margin-bottom: 30px;
 }
@@ -40,7 +34,7 @@ body {
 }
 
 .jumbotron-fluid {
-    background-image: url("../images/backgrounds/h_img.jpg");
+    background-image: url("../Delani-studio/backgrounds/h_img.jpg");
     background-size: cover;
     height: 668px;
 }
@@ -69,7 +63,7 @@ body {
 }
 
 .services {
-    background-image: url("../images/backgrounds/s_image.jpg");
+   background-image: url("../Delani-studio/backgrounds/s_image.jpg");
     height: 280px;
 }
 
@@ -85,7 +79,7 @@ body {
 }
 
 .contacts {
-    background-image: url("../images/backgrounds/c_image.jpg");
+     background-image: url("../Delani-studio/backgrounds/c_image.jpg");
     background-size: cover;
 }
 
@@ -166,7 +160,6 @@ input.error {
     width: auto;
     position: absolute;
     bottom: 0;
-    color: deepskyblue;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
