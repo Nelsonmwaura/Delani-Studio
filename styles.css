@@ -34,7 +34,7 @@ body {
 }
 
 .jumbotron-fluid {
-    background-image: url("../Delani-studio/backgrounds/h_img.jpg");
+    background-image: url("../Delani-Studio/backgrounds/h_img.jpg");
     background-size: cover;
     height: 668px;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .services {
-   background-image: url("../Delani-studio/backgrounds/s_image.jpg");
+   background-image: url("../Delani-Studio/backgrounds/h_img.jpg");
     height: 280px;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .contacts {
-     background-image: url("../Delani-studio/backgrounds/c_image.jpg");
+     background-image: url("../Delani-Studio/backgrounds/c_image.jpg");
     background-size: cover;
 }
 
